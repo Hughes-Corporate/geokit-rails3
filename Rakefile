@@ -11,7 +11,7 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
 
-load 'test/tasks.rake'
+#load 'test/tasks.rake'
 
 desc 'Default: run unit tests.'
 task :default => :test
